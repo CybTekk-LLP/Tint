@@ -30,7 +30,10 @@ body * {
   margin: 5px;
 }
 
+img {
+  margin-block-start: 45px;
+}
+
 table {
   margin: auto;
-  margin-block-start: 45px;
 }
