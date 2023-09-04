@@ -1,10 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 .pixel {
   display: inline-block;
   background-color: #000;
   width: 50px;
   height: 50px;
+  margin: 0 auto;
 }
 
 .filterDetail {
-  font-family: "Consolas", "Menlo", "Ubuntu Mono", monospace;
+  font-family: "Ubuntu", monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", monospace;
+  align-items: center;
+  text-align: center;
+  background-color: #212121;
+  color: #fafffd;
+}
+
+body * {
+  margin: 5px;
+}
+
+table {
+  margin: auto;
+  margin-block-start: 45px;
 }
