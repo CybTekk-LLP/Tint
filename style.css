@@ -37,3 +37,12 @@ img {
 table {
   margin: auto;
 }
+
+button,
+input {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #fafffd;
+  border: none;
+  border-radius: 10px;
+}
